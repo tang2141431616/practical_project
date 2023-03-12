@@ -1,0 +1,141 @@
+.page {
+   .page_product_box {
+      display: block;
+      height: 63px;
+      border-top: 1px solid #e0e0e0;
+      border-bottom: 1px solid #e0e0e0;
+      box-shadow: 0 5px 5px rgb(0 0 0 / 7%);
+
+      .wrapper {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         height: 100%;
+
+         .title {
+            font-size: 18px;
+            font-weight: 400;
+         }
+
+         .nav_bar {
+            height: 21px;
+
+            a {
+               font-size: 14px;
+               color: #616161;
+
+               &:hover {
+                  color: #ff6700;
+               }
+            }
+
+         }
+      }
+   }
+
+   .page_info {
+
+      .wrapper {
+         display: flex;
+         justify-content: space-between;
+         padding: 32px 0 12px;
+
+         .img_left {
+            width: 606px;
+         }
+
+         .product_con {
+            flex: 1;
+            margin-left: 20px;
+
+            h2 {
+               font-size: 24px;
+               font-weight: 400;
+            }
+
+            .slec_desc {
+               font-size: 14px;
+               margin-top: 8px;
+               color: #b0b0b0;
+            }
+
+            .xm {
+               margin-top: 14px;
+               color: #ff6700;
+            }
+
+            .price {
+               padding: 12px 0;
+               font-size: 18px;
+               color: #ff6700;
+               border-bottom: 1px solid #e0e0e0;
+            }
+
+            .address_box {
+               position: relative;
+               margin: 20px 0;
+               padding: 30px 50px;
+               background-color: #fafafa;
+               border: 1px solid #e0e0e0;
+
+               .iconfont-location {
+                  position: absolute;
+                  top: 30px;
+                  left: 20px;
+                  font-size: 20px;
+                  color: #999;
+               }
+
+               .address_con {
+                  font-size: 14px;
+
+                  .address_info {
+                     display: inline-block;
+
+                     span {
+                        margin-right: 14px;
+                     }
+                  }
+
+                  a {
+                     color: #ff6700;
+                  }
+
+               }
+
+               .info {
+                  color: #ff6700;
+               }
+            }
+
+            .option_box {
+               .title {
+                  font-size: 18px;
+               }
+
+               ul {
+                  text-align: center;
+
+                  li {
+                     float: left;
+                     width: 292px;
+                     height: 42px;
+                     line-height: 42px;
+                     margin: 12px 0 0;
+                     border: 1px solid #e0e0e0;
+                     cursor: pointer;
+                     transition: all .4s;
+                     color: #828080;
+
+                     &:focus,
+                     &:active {
+                        color: #ff6700;
+                        border: 1px solid #ff6700;
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+}

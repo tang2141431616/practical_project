@@ -1,0 +1,40 @@
+<!-- 网页底部模块 -->
+   <div class="site-footer">
+      <div class="wrapper">
+         <div class="footer-service">
+            <ul>
+               <li>
+                  <a href="javascript:;">
+                     <em class="iconfont-tool"></em>
+                     预约维修服务
+                  </a>
+               </li>
+               <li>
+                  <a href="javascript:;">
+                     <em class="iconfont-circle-7"></em>
+                     7天无理由退货
+                  </a>
+               </li>
+               <li>
+                  <a href="javascript:;">
+                     <em class="iconfont-circle-15"></em>
+                     15天免费换货满
+                  </a>
+               </li>
+               <li>
+                  <a href="javascript:;">
+                     <em class="iconfont-gift"></em>
+                     69元包邮
+                  </a>
+               </li>
+               <li>
+                  <a href="javascript:;">
+                     <em class="iconfont-location"></em>
+                     1100余家售后网点
+                  </a>
+               </li>
+            </ul>
+         </div>
+         <div class="footer-links"></div>
+      </div>
+   </div>

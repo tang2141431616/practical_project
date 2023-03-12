@@ -1,0 +1,132 @@
+.page .page_product_box {
+  display: block;
+  height: 63px;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
+}
+
+.page .page_product_box .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.page .page_product_box .wrapper .title {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.page .page_product_box .wrapper .nav_bar {
+  height: 21px;
+}
+
+.page .page_product_box .wrapper .nav_bar a {
+  font-size: 14px;
+  color: #616161;
+}
+
+.page .page_product_box .wrapper .nav_bar a:hover {
+  color: #ff6700;
+}
+
+.page .page_info .wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0 12px;
+}
+
+.page .page_info .wrapper .img_left {
+  width: 606px;
+}
+
+.page .page_info .wrapper .product_con {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.page .page_info .wrapper .product_con h2 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.page .page_info .wrapper .product_con .slec_desc {
+  font-size: 14px;
+  margin-top: 8px;
+  color: #b0b0b0;
+}
+
+.page .page_info .wrapper .product_con .xm {
+  margin-top: 14px;
+  color: #ff6700;
+}
+
+.page .page_info .wrapper .product_con .price {
+  padding: 12px 0;
+  font-size: 18px;
+  color: #ff6700;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.page .page_info .wrapper .product_con .address_box {
+  position: relative;
+  margin: 20px 0;
+  padding: 30px 50px;
+  background-color: #fafafa;
+  border: 1px solid #e0e0e0;
+}
+
+.page .page_info .wrapper .product_con .address_box .iconfont-location {
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  font-size: 20px;
+  color: #999;
+}
+
+.page .page_info .wrapper .product_con .address_box .address_con {
+  font-size: 14px;
+}
+
+.page .page_info .wrapper .product_con .address_box .address_con .address_info {
+  display: inline-block;
+}
+
+.page .page_info .wrapper .product_con .address_box .address_con .address_info span {
+  margin-right: 14px;
+}
+
+.page .page_info .wrapper .product_con .address_box .address_con a {
+  color: #ff6700;
+}
+
+.page .page_info .wrapper .product_con .address_box .info {
+  color: #ff6700;
+}
+
+.page .page_info .wrapper .product_con .option_box .title {
+  font-size: 18px;
+}
+
+.page .page_info .wrapper .product_con .option_box ul {
+  text-align: center;
+}
+
+.page .page_info .wrapper .product_con .option_box ul li {
+  float: left;
+  width: 292px;
+  height: 42px;
+  line-height: 42px;
+  margin: 12px 0 0;
+  border: 1px solid #e0e0e0;
+  cursor: pointer;
+  transition: all 0.4s;
+  color: #828080;
+}
+
+.page .page_info .wrapper .product_con .option_box ul li:active,
+.page .page_info .wrapper .product_con .option_box ul li:focus {
+  color: #ff6700;
+  border: 1px solid #ff6700;
+}

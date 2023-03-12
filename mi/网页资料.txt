@@ -1,0 +1,4 @@
+网页头部信息：
+title : 小米商城 - Xiaomi 13、Redmi K60、MIX FOLD 2，小米电视官方网站
+description: 小米官网直营小米公司旗下所有产品，包括Xiaomi手机系列Xiaomi 13、MIX、Redmi 红米系列、Redmi Note 12、K60、电视、笔记本、米家智能家居等，同时提供小米官方服务及售后支持.
+keywords: Xiaomi,redmi,Xiaomi13,Redmi Note 12,Xiaomi MIX Alpha,小米商城
